@@ -26,6 +26,10 @@ Crab is a framework for building LLM agent benchmark environments in a Python-ce
 - pip
 
 ```bash
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
 pip install crab-framework[visual-prompt]
 ```
 
