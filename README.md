@@ -52,4 +52,5 @@ You can run the examples using the following command.
 ```bash
 export OPENAI_API_KEY=<your api key>
 python examples/desktop_env.py "Open Firefox"
+python examples/desktop_env.py "Open Firefox" | tee -a "logs/log_$(date +%F).log"
 ```
